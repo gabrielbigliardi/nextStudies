@@ -14,7 +14,8 @@ export default async function UsersPage() {
   const usersData: Promise<User[]> = getAllUsers()
 
   const users = await usersData
-  console.log(users[1])
+
+  // console.log(users[1])
 
   const content = (
     <section>
